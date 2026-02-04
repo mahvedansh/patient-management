@@ -1,0 +1,11 @@
+#Update on existing patient entity
+
+PUT http://localhost:4000/patients/ea0ae99a-72fe-4632-9bbc-4bc3f8d7fffe
+Content-Type: application/json
+
+{
+  "name": "Vedansh Maheshwari",
+  "email": "v@gmail.com",
+  "address": "Bengaluru",
+  "dateOfBirth": "1985-06-15"
+}
